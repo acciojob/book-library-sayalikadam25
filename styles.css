@@ -11,13 +11,18 @@ body{
 }
 .book{
 	width:100%;
-	background-color:#777777;
+	background-color:#ffffff;
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: ceneter;
 }
+.book>p{
+	color:#777777;
+}
 #btn{
 	width:100%;
 	background-color: #2ecc71;
+	border-radius:3px;
+	padding:8px;
 }
